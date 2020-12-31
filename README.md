@@ -11,7 +11,7 @@ You will need:
 
 ## Setup
 
-1. Make sure node.js is installed on your device (v11.9.0 was used in testing)
+1. Make sure node.js is installed on your Pi (v11.9.0 was used in testing)
 2. Clone this repo to some directory (e.g. `/home/pi/pilight`) on the Pi:
 
 `git clone https://github.com/Matchstic/PiLight.git`
