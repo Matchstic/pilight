@@ -1,0 +1,13 @@
+{
+  "name": "pilight",
+  "version": "1.0.0",
+  "description": "RGB light component for RPi",
+  "main": "src/index.js",
+  "author": "Matt Clarke",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "^4.17.1",
+    "rpi-ws281x-native": "^0.10.1"
+  }
+}

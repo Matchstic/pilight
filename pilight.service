@@ -1,0 +1,12 @@
+[Unit]
+Description=pilight.js
+After=network.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/usr/local/bin/node /home/pi/pilight
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
